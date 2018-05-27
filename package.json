@@ -1,7 +1,7 @@
 {
-  "name": "homebridge-gpio-blinds",
+  "name": "homebridge-becker-blinds",
   "version": "1.0.0",
-  "description": "A homebridge plugin to control somfy/velux/etc blinds via GPIO pins connected to the original remote",
+  "description": "A homebridge plugin to control becker/somfy/velux/etc blinds via GPIO pins connected to the original remote",
   "main": "index.js",
   "dependencies": {
     "pi-gpio": "0.0.8"
@@ -19,6 +19,8 @@
     "homekit",
     "noolite",
     "homebridge-gpio-blinds",
+    "homebridge-becker-blinds",
+    "somfy-blinds",
     "homebridge-blinds"
   ],
   "engines": {
