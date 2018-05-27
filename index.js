@@ -5,7 +5,7 @@ module.exports = function(homebridge) {
     Service = homebridge.hap.Service;
     Characteristic = homebridge.hap.Characteristic;
 
-    homebridge.registerAccessory("homebridge-gpio-blinds", "GPIO-Blinds", GPIOBlindsAccessory);
+    homebridge.registerAccessory("homebridge-becker-blinds", "GPIO-Blinds", GPIOBlindsAccessory);
 }
 
 function GPIOBlindsAccessory(log, config) {
